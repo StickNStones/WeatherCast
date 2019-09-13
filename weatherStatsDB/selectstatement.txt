@@ -1,0 +1,13 @@
+SELECT * 
+FROM LOC l, Calgary c, LA la, Ibiza i, Brisbane B, Dubai D, Amsterdam A
+WHERE l.date = c.date, la.date = i.date
+
+SELECT * 
+FROM Calgary c
+INNER JOIN loc L on L.date = c.date
+INNER JOIN Ibiza I on I.date = c.date
+INNER JOIN Dubai D on D.date = c.date
+INNER JOIN Amsterdam A on A.date = c.date
+INNER JOIN Brisbane B on B.date = c.date
+INNER JOIN LA la on la.date = c.date
+WHERE c.date > "2019-08-12" and c.date < "2019-08-28"

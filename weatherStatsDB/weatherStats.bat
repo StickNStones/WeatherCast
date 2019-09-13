@@ -1,0 +1,1 @@
+"E:\Users\ZacK\AppData\Local\Programs\python.exe" "E:\Work\Summer\DataSci\weatherStatsDB\weatherForecast.py"
